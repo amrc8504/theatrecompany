@@ -1,0 +1,98 @@
+*{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 20%;
+}
+.navbar:after{
+    clear: both;
+}
+.index{
+    width: 16.6%;
+    height: 100%;
+    margin: auto;
+    margin-left: 1.5%;
+    background-color: black;
+}
+.item{
+    width: 16.6%;
+    height: 35px;
+    margin: 22px;
+    background-color: black;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.logo1{
+    min-length: 200px;
+}
+.container1{
+    min-length: 200px;
+}
+.container2{
+    min-length: 200px;
+}
+.container3{
+    min-length: 200px;
+}.container4{
+    min-length: 200px;
+}.container5{
+    min-length: 200px;
+}
+.logo-text{
+    text-align: center;
+    padding: auto;
+}
+.logo-text, a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: pink;
+}
+.featured-shows{
+    background-image: url(https://lh3.googleusercontent.com/6AtpMmzcjgCtt6SLpPTHYSMXLp5jz3H_1ivv0v3IalOTsBMr7jFnoXu5FfORI03duF_aCn13QCQOGHI=w105-h70-c);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.featured-shows:after{
+    clear: both;
+}
+.text-over-image{
+    height: 80px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+.featured-shows-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.upcoming-shows-list{
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+.show-list{
+    display: block;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    margin: 5%;
+}
+  
